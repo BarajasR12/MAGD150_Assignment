@@ -1,0 +1,71 @@
+
+void setup() {
+  size(600,600);
+  background(0);
+}
+
+void draw() {
+   if(mousePressed==false){
+     background(0);
+   }
+  fill(255);
+    if(mousePressed&&mouseX>=50&&mouseX<=250&&mouseY>=200&&mouseY<=400){
+    fill(0);
+  }
+  ellipse(450,300,200,200);
+  fill(255,0,0);
+  if(mousePressed&&mouseX>=50&&mouseX<=250&&mouseY>=200&&mouseY<=400){
+    fill(0);
+  }
+  rect(50,200,200,200);
+  fill(255);
+    if(mousePressed&&mouseX>=50&&mouseX<=250&&mouseY>=200&&mouseY<=400){
+    fill(0);
+  }
+  textSize(32);
+  text("Choose",95,310);
+  fill(255,0,0);
+    if(mousePressed&&mouseX>=50&&mouseX<=250&&mouseY>=200&&mouseY<=400){
+    fill(0);
+  }
+  text("One",420,310);
+    if(mousePressed&&mouseX>=50&&mouseX<=250&&mouseY>=200&&mouseY<=400){
+      background(0);
+       fill(40,7,2);
+   triangle(-10,600,0,250,100,600);
+   triangle(500,600,600,250,610,600);
+   triangle(10,0,30,200,40,0);
+   triangle(50,0,70,100,80,0);
+   triangle(90,0,110,100,120,0);
+   triangle(130,0,150,150,160,0);
+   triangle(300,0,320,200,330,0);
+   triangle(340,0,360,150,370,0);
+   triangle(380,0,400,100,410,0);
+   triangle(420,0,440,150,450,0);
+   triangle(460,0,480,150,490,0);
+   triangle(500,0,520,200,530,0);
+   quad(600,150,600,150,400,600,100,600);
+      fill(255,0,0);
+   bezier(24,600,245,337,169,279,206,600);
+   bezier(206,600,427,337,351,279,388,600);
+   bezier(388,600,609,337,533,279,570,600);
+   fill(255,123,0);
+   bezier(24,600,223,374,110,446,206,600);
+   bezier(206,600,405,374,292,446,388,600);
+   bezier(388,600,587,374,474,446,570,600);
+    }
+    if(mousePressed&&mouseX>=350&&mouseX<=550&&mouseY>=200&&mouseY<=400){
+background(89,196,204);
+fill(255);
+triangle(400,600,600,150,600,600);
+triangle(0,300,600,150,0,600);
+fill(240);
+quad(600,150,600,150,400,600,0,600);
+fill(255,229,0);
+bezier(274,286,299,9,552,7,600,377);
+line(425,90,425,330);
+fill(0);
+ellipse(410,250,10,10);
+ellipse(440,255,10,10);
+    }
+}
