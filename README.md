@@ -14,7 +14,7 @@ Where ever your mouse goes it **draws** bubbles along the way.
 For lab 4 I was experimenting with the **_mousePressed_** _and_ **keyPressed** commands.
 If the ellipse is **red** the ball will **not** fall when key is pressed but **will** if ball is **green**.
 
-### ** LAB 5**
+### **LAB 5**
 Lab 5 was my **first** attempt at creating _buttons_.
 When mouse is pressed over the **red** button it reveals the entrance to **_hell_** and if mouse is 
 pressed over the **white** button it reveals the gate to **_heaven_**.
